@@ -16,7 +16,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="app.css">
 
-    <title>Hello, world!</title>
+    <title>James Lee - iOS Developer & Web Developer</title>
 </head>
 
 <body>
@@ -80,7 +80,7 @@
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                         <h2>iOS</h2>
                         <img src="imgs/ios.png" alt="" class="d-none d-lg-inline">
-                        <p class="lead">Learn World Flags is one of the series that is being rolled out. You can find <a href="">privacy policy</a> here for Learn World Flags. More apps to come - stay tuned!</p>
+                        <p class="lead">Learn World Flags is one of the series that is being rolled out. You can find <a href="/learnworldflags-privacypolicy.html">privacy policy</a> & <a href="/learnworldflags-termsconditions.html">Terms & Conditions</a> here for Learn World Flags. More apps to come - stay tuned!</p>
                     </div>
                 </div>
             </div>
@@ -98,8 +98,9 @@
                 <div class="row justify-content-center">
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                         <h2>Contact Me</h2>
-                        <img src="imgs/twitter.png" alt="" class="d-none d-lg-inline">
-                        <p class="lead">@jlcreator1</p>
+                        <img src="imgs/at.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">email: jamesleecreator@gmail.com</p>
+                        <p class="lead">twitter: @jlcreator1</p>
                     </div>
                 </div>
             </div>
@@ -116,15 +117,17 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
-        <script>
-            $(function() {
-                var windowsize = $(window).width();
-                if (windowsize < 600) {
-                    $("#mainNavbar").css({"background-color": "#3e1313"});
-                }
-            });
-        </script>
+    <!-- < sm size window - default background color -->
+    <script>
+        $(function() {
+            var windowsize = $(window).width();
+            if (windowsize < 600) {
+                $("#mainNavbar").css({"background-color": "#3e1313"});
+            }
+        });
+    </script>
 
+    <!-- scroll down toggle to scrolled class for computer screen size -->
     <script>
         $(function () {
             $(document).scroll(function() {
@@ -134,6 +137,7 @@
         });
     </script>
     
+    <!-- smooth scrolling webpage -->
     <script>
         $(document).ready(function(){
           // Add smooth scrolling to all links
