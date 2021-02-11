@@ -44,7 +44,7 @@
     <section class="container-fluid px-0">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <div id="headingGroup" class="text-white text-center d-none d-lg-block">
+                <div id="headingGroup" class="text-white text-center my-5">
                     <h1>JAMES<span>/</span>LEE</h1>
                     <h1>iOS<span>/</span>DEVELOPER</h1>
                     <h1>WEB<span>/</span>DEVELOPER</h1>
@@ -115,6 +115,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+        <script>
+            $(function() {
+                var windowsize = $(window).width();
+                if (windowsize < 600) {
+                    $("#mainNavbar").css({"background-color": "#3e1313"});
+                }
+            });
+        </script>
 
     <script>
         $(function () {
