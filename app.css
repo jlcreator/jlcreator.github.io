@@ -2,6 +2,7 @@ body {
     background: #CF5C36;
     font-family: "Nunito", sans-serif;
     overflow-x: hidden;
+    position: relative;
     width: 100%;
 }
 
