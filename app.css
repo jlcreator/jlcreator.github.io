@@ -1,6 +1,7 @@
 body {
     background: #CF5C36;
     font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
 }
 
 .navbar-brand span {
@@ -64,3 +65,9 @@ h2 {
     }
 }
 
+@media (max-width: 500px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
